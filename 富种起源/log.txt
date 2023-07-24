@@ -1,0 +1,6 @@
+
+7/24/2023
+matrix-based simulation is somehow tricky, just use entry-wise now. 
+To do so in the future, try mask-based way, like: 
+
+Next_M = Cur_M + M_1 * Up_M + M_2 * Down_M + M_3 * Left_M + M_4 * Right_M  
